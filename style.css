@@ -8,17 +8,12 @@
     background-color: rgb(0, 99, 133);
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
+    justify-content:center;
 }
-
 #namn {
     color: black;
-    padding: 30px;
-    
-}
-#links {
-   
+    padding: 30px; 
+    font-size:3rem;
 }
 
 /* huvudinnehåll */
@@ -26,18 +21,28 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:space-around;
+}
+#profilbild {
     
+    width: 508px;
+    height: 508px;
+    display: flex;
 }
-
-#text1 {
-    background-color: lightblue;
-}
-
-#text2 {
-    background-color: rgb(230, 173, 173);
+#text {
+    background-color: rgb(241, 148, 148);
+    width: 508px;
+    height: 508px;
+    justify-content:left;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #text3 {
     background-color: rgb(230, 219, 173);
+    width: 508px;
+    height: 508px;
+    display: flex;
+    
+    flex-wrap: wrap;
 }
