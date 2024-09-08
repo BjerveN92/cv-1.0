@@ -25,8 +25,9 @@
 }
 #profilbild {
     
-    width: 508px;
-    height: 508px;
+    width: 500px;
+    height: 500px;
+    
     display: flex;
 }
 #text {
