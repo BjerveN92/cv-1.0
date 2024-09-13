@@ -3,8 +3,16 @@
     padding: 4px;
     box-sizing:border-box;
 }
-.body {
-    background-image: image();
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    background-image:url(bkrnd\ \(1\).jpg);
+    /* background-image:url(bkrnd\ \(3\).jpg); */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
 /* INLEDNING - HUVUD */
