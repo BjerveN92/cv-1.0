@@ -8,8 +8,8 @@ html, body {
     margin: 0;
 }
 body {
-    background-image:url(bkrnd\ \(1\).jpg);
-    /* background-image:url(bkrnd\ \(3\).jpg); */
+    background-image:url(bkrnd\ \(1\).jpg); 
+     
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@ body {
 
 /* INLEDNING - HUVUD */
 .myhead {
-    background-color: rgb(0, 99, 133);
+    /* background-color: rgb(0, 99, 133); */
     display: flex;
     flex-direction: row;
     justify-content:center;
@@ -41,12 +41,16 @@ body {
 #profilbild {
     width: 500px;
     height: 500px;
-    border-radius: 50%; 
+    border-radius: 50%;
+    border-color: rgb(18, 135, 131); 
+    border-style: groove;
     display: flex;
 }
 #text {
-    background-color: rgb(241, 148, 148);
+    background-color: rgba(250, 116, 207, 0.54);
     font-family: "New Amsterdam", sans-serif;
+    font: size 800px;
+    color: rgb(205, 255, 253);
     width: 500px;
     height: 350px;
     justify-content:center;
@@ -55,7 +59,7 @@ body {
     border-radius: 5%;
 }
 #länkar {
-    background-color: rgb(191, 255, 180);
+    background-color: rgb(191, 255, 180, 0.273);
     width: 500px;
     height: 250px;
     justify-content:center;
