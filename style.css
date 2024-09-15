@@ -64,6 +64,7 @@ body {
     height: 250px;
     justify-content:center;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     border-radius: 5%;
 
