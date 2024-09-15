@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 4px;
+    box-sizing:border-box;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    background-image:url(bkrnd\ \(1\).jpg); 
+     
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+/* INLEDNING - HUVUD */
+.myhead {
+    /* background-color: rgb(0, 99, 133); */
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+#namn {
+    color: rgb(217, 190, 13);
+    padding: 30px; 
+    font-size:3rem;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* huvudinnehåll */
+.content { 
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    
+    
+}
+#profilbild {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border-color: rgba(18, 135, 131, 0.57); 
+    border-style: groove;
+    display: flex;
+}
+#text {
+    background-color: rgba(234, 98, 98, 0.519);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:15px;
+    color: rgb(205, 255, 253);
+    text-shadow: 4px 4px 6px rgb(0, 0, 0);
+    width: 770px;
+    height: 250px;
+    justify-content:left;
+    display: flex;
+    border-radius: 5%;
+}
+#länkar {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(191, 255, 180, 0.273);
+    text-shadow: 2px 2px 5px rgb(57, 72, 156);
+    width: 500px;
+    height: 250px;
+    justify-content:center;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    border-radius: 5%;
+}
+
+.gitHubLink, .gmailLink {
+    display: flex;
+    flex-direction: row;
+}
+
+.copyright {
+    /* justify-content: center; */
+    text-align: left;
+    justify-content: flex-end;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+    color: rgba(0, 5, 5, 0.132);
+    text-shadow: 1px 2px 5px rgba(127, 149, 16, 0.623);
+    flex-direction: row;
+}
