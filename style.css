@@ -59,14 +59,18 @@ body {
     border-radius: 5%;
 }
 #länkar {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(191, 255, 180, 0.273);
     width: 500px;
     height: 250px;
     justify-content:center;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     flex-wrap: wrap;
     border-radius: 5%;
+}
 
-    
+.gitHubLink, .gmailLink {
+    display: flex;
+    flex-direction: row;
 }
