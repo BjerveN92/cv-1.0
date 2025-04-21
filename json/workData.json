@@ -1,0 +1,36 @@
+[
+    {
+        "id" : 1,
+        "companyName" : "Eurocash AB",
+        "location" : "Töcksfors",
+        "date&year" : "Juni 2016 - April 2024",
+        "description" : ["Jobbat inom dagligvaruhandeln dom senaste 8 åren, mer specifikt med gränshandeln i en livsmedelsbutik.",
+                         "Gjort det mesta inom alla avdelningar med allt från kassan, varuplock, kött&chark," ,
+                         "till att dom senaste 1 & ½ åren varit frysansvarig."] 
+    },
+    {
+        "id" : 2,
+        "companyName" : "APS Pulverlack AB",
+        "location" : "Töcksfors",
+        "date&year" : ["Jun 2015 - Feb 2016 ", "Jan 2015 - Apr 2015"],
+        "description" : ["Ett väldigt allround och fysiskt industrijobb där teamwork är viktigt.",
+                         "Jag hängde upp plåtar på en bana, packade ner plåtarna,",
+                         "lackerade manuellt med handspruta samt stod och justerade inställningar på lackmaskinen.",
+                         "Jobbade både 2 & 3-skift."] 
+    },
+    {
+        "id" : 3,
+        "companyName" : "HANZA Elektromekan AB",
+        "location" : "Årjäng",
+        "date&year" : ["Jun 2014 -  Sep 2014","Mar 2013 - Aug 2013","Jun 2011  - Aug 2012"],
+        "description" : ["Mitt första riktiga jobb. Här fick jag löda, montera, lackera, programmera/testa kretskort.", 
+                         "Fick även testa på 5-skifts arbete där jag fick styra/ansvara för en automatiserad maskin/robot."]
+    },
+    {
+        "id" : 4,
+        "companyName" : "Dalslands Kanal AB",
+        "location" : "Lennartsfors",
+        "date&year" : "sommar 2009, 2010, 2011",
+        "description" : "Sommarjobbade söndagar som slussbiträde på slussen i Lennartsfors."
+    }
+]

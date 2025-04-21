@@ -9,7 +9,7 @@ html, body {
 }
 body {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9),
-     rgba(148, 72, 72, 0.23)), url(bkrnd\ \(1\).jpg);
+     rgba(148, 72, 72, 0.23)), url(images/bkrnd\ \(1\).jpg);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@ body {
 .navbar-links {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Adds spacing between links */
+    gap: 20px; 
 }
 #namn {
     color: rgb(217, 190, 13);
@@ -37,14 +37,17 @@ body {
 }
 
 /* huvudinnehåll */
-
+.profilbild-class {
+    margin: 20px ; 
+}
 #profilbild {
     width: 200px;
     height: auto; 
     border-radius: 50%;
     border-color: rgba(18, 135, 131, 0.57); 
     border-style: groove;
-    margin: 20px auto; /* Centrerar bilden */
+    /* margin: 20px auto;  */
+    margin-top: 50px;
     display: block; /* Gör att den placeras vertikalt */
 }
 
