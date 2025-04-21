@@ -8,19 +8,11 @@ html, body {
     margin: 0;
 }
 body {
-    background-image:url(bkrnd\ \(1\).jpg); 
-     
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(148, 72, 72, 0.23)), url(bkrnd\ \(1\).jpg);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-}
-
-/* INLEDNING - HUVUD */
-.myhead {
-    /* background-color: rgb(0, 99, 133); */
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
+    background-attachment: fixed;
 }
 #namn {
     color: rgb(217, 190, 13);
@@ -32,13 +24,7 @@ body {
 }
 
 /* huvudinnehåll */
-.content { 
-    display: flex;
-    flex-direction:row;
-    justify-content:space-between;
-    
-    
-}
+
 #profilbild {
     width: 400px;
     height: 400px;
@@ -47,44 +33,63 @@ body {
     border-style: groove;
     display: flex;
 }
-#text {
-    background-color: rgba(234, 98, 98, 0.519);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:15px;
-    color: rgb(205, 255, 253);
-    text-shadow: 4px 4px 6px rgb(0, 0, 0);
-    width: 770px;
-    height: 250px;
-    justify-content:left;
+.main-content {
     display: flex;
-    border-radius: 5%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.222);
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    font-family: "Arial", sans-serif;
+    color: #333;
+    text-align: center;
 }
-#länkar {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(191, 255, 180, 0.273);
-    text-shadow: 2px 2px 5px rgb(57, 72, 156);
-    width: 500px;
-    height: 250px;
-    justify-content:center;
+.about-container {
     display: flex;
-    flex-direction:column;
-    flex-wrap: wrap;
-    border-radius: 5%;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin: 50px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.gitHubLink, .gmailLink {
-    display: flex;
-    flex-direction: row;
+.about-text {
+    font-family: "Arial", sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    margin: 10px 0;
 }
 
-.copyright {
-    /* justify-content: center; */
-    text-align: left;
-    justify-content: flex-end;
-    
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:25px;
-    color: rgba(0, 5, 5, 0.132);
-    text-shadow: 1px 2px 5px rgba(127, 149, 16, 0.623);
-    flex-direction: row;
+/* LÄnkar ska bli till en footer + linkedin */
+.footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.5);
 }
+
+.footer a {
+    color: #1e90ff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
