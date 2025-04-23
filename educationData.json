@@ -1,0 +1,34 @@
+[
+    {
+        "id" : 1,
+        "name" : "Javautvecklare",
+        "location" : "Värnamo (Distans)",
+        "date&year" : "Augusti 2024 - ",
+        "description" : "Jag studerar nu som Javautvecklare på distans med fysiska träffar i Värnamo. En YH-utbildning på distans.\n Det är en fullstack-utbildning där vi även läser HTML, Javascript/Typescript, MySQL, NoSQL, MongoDB,\n samt att vi har fått jobba med populära ramverk som Java Spring Boot, Jakarta EE, React för att nämna några. \n Vi lär oss även att jobba agilt  "
+
+    },
+    {
+        "id" : 2,
+        "name" : "Programmering 1",
+        "location" : "Hermods.se (Distans)",
+        "date&year" : "April - Maj 2024",
+        "description" : "Gick en kurs i programmering 1 för att bli behörig till utbildningen jag nu går. Jag valde då Pyhton som kodningsspråk. "
+
+    },
+    {
+        "id" : 3,
+        "name" : "Elprogrammet med inriktning automation",
+        "location" : "Årjängs gymnasieskola, Årjäng",
+        "date&year" : "Aug 2008 - Jun 2011",
+        "description" : "Lärde mig allmänt om hur elektronik funkar samt drift- och underhållsteknik. Vi fick även programmera kretsar och sköta automatiserade produktionssystem."
+
+    },
+    {
+        "id" : 4,
+        "name" : "Silbodalskolan Årskurs 7 - 9",
+        "location" : " Årjäng",
+        "date&year" : "Aug 2005 - Jun 2008",
+        "description" : "Grundskolan"
+
+    }
+]

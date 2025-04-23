@@ -63,7 +63,8 @@ color: #333;
 text-align: left;
 }
 .container,
-.experience-container {
+.experience-container,
+.education-container {
 display: flex;
 flex-direction: column;
 align-items: left;
@@ -83,7 +84,7 @@ text-align: center;
 margin: 10px 0;
 }
 
-/* LÄnkar ska bli till en footer + linkedin */
+
 .footer {
 background-color: rgba(0, 0, 0, 0.8);
 color: white;
@@ -108,7 +109,8 @@ text-decoration: underline;
 }
 /* FOR WORKEXPERIENCE */
 
-.job-entry {
+.job-entry,
+.education-entry {
 margin-bottom: 20px;
 padding: 15px;
 border: 1px solid #000000;
@@ -123,7 +125,8 @@ margin-bottom: 10px;
 }
 
 .job-location,
-.job-period {
+.job-period,
+.education-entry p {
 margin: 5px 0;
 }
 
@@ -142,4 +145,10 @@ margin-bottom: 5px;
 
 .job-description {
 font-size: 0.95em;
+}
+
+/* FOR EDUCATION */
+
+.education-container h2 {
+    margin-bottom: 15px;
 }
