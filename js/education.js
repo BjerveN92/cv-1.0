@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     mainContent.appendChild(educationContainer);
 
     // Fetch education data and populate the container
-    fetch("educationData.json")
+    fetch("/data/educationData.json")
         .then(response => {
             if (!response.ok) {
                 throw new Error("Failed to fetch education data");
