@@ -53,57 +53,114 @@ body {
 
 .main-content {
     display: flex; 
-    width: 60%; /* Mindre bredd */
+    width: 80%; /* Mindre bredd */
     margin: 20px auto; /* Centrerar textrutan */
-    background-color: rgba(255, 255, 255, 0.222);
+    background-color: rgba(0, 6, 58, 0.39);
     border-radius: 15px;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); */
     font-family: "Arial", sans-serif;
     color: #333;
     text-align: center;
 }
-.about-container {
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 50%;
+margin: 110px;
+padding: 50px;
+background-color: rgba(255, 255, 255, 0.8);
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.experience-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 80%;
-    margin: 50px;
-    padding: 50px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: flex-end; /* Ändrar textens utgångspunkt till höger */
+    width: 50%; /* Matchar bredden för .container */
+    margin: 50px auto; /* Centrerar och matchar .container */
+    padding: 50px; /* Matchar padding för .container */
+    background-color: rgba(255, 255, 255, 0.8); /* Samma bakgrundsfärg som .container */
+    border-radius: 10px; /* Matchar hörnens rundning för .container */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Samma skugga som .container */
+    overflow-y: auto; /* Behåller scroll-funktionaliteten */
+    max-height: 400px; /* Behåller höjdbegränsningen */
+    font-size: 1em;
+    color: #333; /* Matchar textfärgen för .container */
+    text-align: left; /* Säkerställer att texten är högerjusterad */
 }
 
 .about-text {
-    font-family: "Arial", sans-serif;
-    font-size: 80%;
-    color: #333;
-    line-height: 1.6;
-    text-align: center;
-    margin: 10px 0;
+font-family: "Arial", sans-serif;
+font-size: 80%;
+color: #333;
+line-height: 1.6;
+text-align: center;
+margin: 10px 0;
 }
 
 /* LÄnkar ska bli till en footer + linkedin */
 .footer {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.5);
+background-color: rgba(0, 0, 0, 0.8);
+color: white;
+text-align: center;
+padding: 20px;
+font-family: Arial, sans-serif;
+font-size: 14px;
+position: fixed;
+bottom: 0;
+width: 100%;
+box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .footer a {
-    color: #1e90ff;
-    text-decoration: none;
-    margin: 0 10px;
+color: #1e90ff;
+text-decoration: none;
+margin: 0 10px;
 }
 
 .footer a:hover {
-    text-decoration: underline;
+text-decoration: underline;
 }
 
+
+/* FOR WORKEXPERIENCE */
+
+
+
+  
+.job-entry {
+margin-bottom: 20px;
+padding: 15px;
+border: 1px solid #000000;
+border-radius: 5px;
+background-color: #ffffff00;
+}
+
+.job-company {
+font-size: 1.5em;
+color: #000000;
+margin-bottom: 10px;
+}
+
+.job-location,
+.job-period {
+margin: 5px 0;
+}
+
+.job-description-container {
+margin-top: 10px;
+}
+
+.job-description-list {
+margin: 10px 0;
+padding-left: 20px;
+}
+
+.job-description-list li {
+margin-bottom: 5px;
+}
+
+.job-description {
+font-size: 0.95em;
+}
