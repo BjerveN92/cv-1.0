@@ -8,32 +8,32 @@ html, body {
     margin: 0;
 }
 body {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9),
-     rgba(148, 72, 72, 0.23)), url(images/bkrnd\ \(1\).jpg);
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9),
+    rgba(148, 72, 72, 0.23)), url(images/bkrnd\ \(1\).jpg);
+background-size: cover; 
+background-position: center; 
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 .myhead {
-    color: white;
-    padding: 10px;
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    text-align: center;
+color: white;
+padding: 10px;
+font-family: Arial, sans-serif;
+font-size: 18px;
+text-align: center;
 }
 .navbar-links {
-    display: flex;
-    justify-content: center;
-    gap: 20px; 
+display: flex;
+justify-content: center;
+gap: 20px; 
 }
 #namn {
-    color: rgb(217, 190, 13);
-    padding: 1px; 
-    font-size:3rem;
-    font-family: "New Amsterdam", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+color: rgb(217, 190, 13);
+padding: 1px; 
+font-size:3rem;
+font-family: "New Amsterdam", sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 /* huvudinnehåll */
@@ -55,7 +55,7 @@ display: block;
 display: flex; 
 width: 80%; /* Mindre bredd */
 margin: 20px auto; /* Centrerar textrutan */
-background-color: rgba(0, 6, 58, 0.39);
+/* background-color: rgba(0, 6, 58, 0.39); */
 border-radius: 15px;
 /* box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); */
 font-family: "Arial", sans-serif;
@@ -66,8 +66,8 @@ text-align: left;
 .experience-container {
 display: flex;
 flex-direction: column;
-align-items: center;
-width: 50%;
+align-items: left;
+width: 60%;
 margin: 110px;
 padding: 50px;
 background-color: rgba(255, 255, 255, 0.8);
@@ -78,7 +78,7 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 font-family: "Arial", sans-serif;
 font-size: 80%;
 color: #333;
-line-height: 1.6;
+line-height: 1.4rem;
 text-align: center;
 margin: 10px 0;
 }
