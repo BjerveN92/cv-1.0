@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("/data/workData.json")
+    fetch("./data/workData.json")
       .then(response => {
         if (!response.ok) {
           throw new Error("Kunde inte ladda JSON-filen.");
