@@ -41,28 +41,29 @@ body {
     margin: 20px ; 
 }
 #profilbild {
-    width: 200px;
-    height: auto; 
-    border-radius: 50%;
-    border-color: rgba(18, 135, 131, 0.57); 
-    border-style: groove;
-    /* margin: 20px auto;  */
-    margin-top: 50px;
-    display: block; /* Gör att den placeras vertikalt */
+width: 300px;
+height: auto; 
+border-radius: 50%;
+border-color: rgba(18, 135, 131, 0.57); 
+border-style: groove;
+/* margin: 20px auto;  */
+margin-top: 50px;
+display: block; 
 }
 
 .main-content {
-    display: flex; 
-    width: 80%; /* Mindre bredd */
-    margin: 20px auto; /* Centrerar textrutan */
-    background-color: rgba(0, 6, 58, 0.39);
-    border-radius: 15px;
-    /* box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); */
-    font-family: "Arial", sans-serif;
-    color: #333;
-    text-align: center;
+display: flex; 
+width: 80%; /* Mindre bredd */
+margin: 20px auto; /* Centrerar textrutan */
+background-color: rgba(0, 6, 58, 0.39);
+border-radius: 15px;
+/* box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); */
+font-family: "Arial", sans-serif;
+color: #333;
+text-align: left;
 }
-.container {
+.container,
+.experience-container {
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -73,23 +74,6 @@ background-color: rgba(255, 255, 255, 0.8);
 border-radius: 10px;
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.experience-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end; /* Ändrar textens utgångspunkt till höger */
-    width: 50%; /* Matchar bredden för .container */
-    margin: 50px auto; /* Centrerar och matchar .container */
-    padding: 50px; /* Matchar padding för .container */
-    background-color: rgba(255, 255, 255, 0.8); /* Samma bakgrundsfärg som .container */
-    border-radius: 10px; /* Matchar hörnens rundning för .container */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Samma skugga som .container */
-    overflow-y: auto; /* Behåller scroll-funktionaliteten */
-    max-height: 400px; /* Behåller höjdbegränsningen */
-    font-size: 1em;
-    color: #333; /* Matchar textfärgen för .container */
-    text-align: left; /* Säkerställer att texten är högerjusterad */
-}
-
 .about-text {
 font-family: "Arial", sans-serif;
 font-size: 80%;
@@ -122,13 +106,8 @@ margin: 0 10px;
 .footer a:hover {
 text-decoration: underline;
 }
-
-
 /* FOR WORKEXPERIENCE */
 
-
-
-  
 .job-entry {
 margin-bottom: 20px;
 padding: 15px;
