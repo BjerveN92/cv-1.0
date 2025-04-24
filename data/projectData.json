@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "description" : "ett react-projekt som ska föreställa en e-handel där man kan köpa frukt, OBS!: under konstruktion! ",
+        "name" : "Fruit4You",
+        "url" : "https://github.com/BjerveN92/fruit4you"
+    },
+    {
+        "id": 2,
+        "name" : "DaveIntoSpace",
+        "description" : "Spring Boot backend + MongoDB + Docker. Backend som hanterar karaktärer till dataspel med CRUD-operationer. har även deployat backenden och databasen ", 
+        "url" : "https://github.com/BjerveN92/DaveIntoSpace"
+    },
+    {
+        "id": 3,
+        "name" : "weatherapp-1day",
+        "description" : "väderapp med sökfunktion för 1 dag, skapad med javascript, API: OpenWeathermap",
+        "url" : "https://github.com/BjerveN92/weatherapp-1day"
+    },
+    {
+        "id": 4,
+        "name" : "weatherapp-7days",
+        "description" : "väderapp med sökfunktion för 7 dagar, skapad med javascript, API: OpenMeteo",
+        "url" : "https://github.com/BjerveN92/weatherapp-7days"
+    },
+    {
+        "id": 5,
+        "name" : "Fruitmarket",
+        "description" : "Enkel webbappliaktion som är en början till en digital fruktmarknad med inloggningsfunktion. Spring Boot security + Thymeleaf + MySQL + MAMP",
+        "url" : "https://github.com/BjerveN92/FruitMarket-Login"
+    }
+]
